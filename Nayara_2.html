@@ -20,14 +20,28 @@
             window.location.href = "Rivaldo_1.html";
           });
       });
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("home")
+          .addEventListener("click", function () {
+            window.location.href = "Novia_4.html";
+          });
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("home1")
+          .addEventListener("click", function () {
+            window.location.href = "Novia_4.html";
+          });
+      });
     </script>
   </head>
   <body>
     <div class="background">
       <div class="navigasi">
         <div class="navbar_button"></div>
-        <div class="icon_home"></div>
-        <span class="home_text">Home</span>
+        <div class="icon_home" id="home"></div>
+        <span class="home_text" id="home1">Home</span>
         <div class="icon_mutasi"></div>
         <span class="mutasi_text">Mutasi</span>
         <div class="icon_aktivitas" id="aktivitas"></div>
