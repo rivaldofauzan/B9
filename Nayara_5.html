@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/Nayara_5.css" rel="stylesheet" />
+    <title>Login</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("contact")
+          .addEventListener("click", function () {
+            window.location.href = "Nayara_4.html";
+          });
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("login-btn")
+          .addEventListener("click", function () {
+            const usernameInput = document.getElementById("username");
+            const passwordInput = document.getElementById("password");
+            if (
+              usernameInput.value === "user123" &&
+              passwordInput.value === "123456"
+            ) {
+              // Redirect ke halaman selanjutnya
+              window.location.href = "Rivaldo_1.html";
+            } else {
+              // Tampilkan pesan error jika input tidak valid
+              alert("=== DEFAULT ===\n Username : user123\n Password : 123456");
+            }
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="background_login_circle"></div>
+      <div class="login_animation"></div>
+      <div class="navbar_top"></div>
+      <div class="icon_contact" id="contact"></div>
+      <div class="icon_brimo"></div>
+      <div class="icon_sinyal"></div>
+      <input
+        type="text"
+        class="textbox_username"
+        id="username"
+        placeholder="username"
+      />
+      <input
+        type="password"
+        class="textbox_password"
+        id="password"
+        placeholder="password"
+      />
+      <div class="button_login" id="login-btn">
+        <span class="login_button_text">Login</span>
+      </div>
+      <div class="button_fingerprint"></div>
+      <div class="icon_fingerprint"></div>
+      <div class="icon_username"></div>
+      <div class="icon_password"></div>
+      <span class="login_text">Login</span
+      ><span class="forgot_text">Lupa Username/Password?</span
+      ><span class="welcome_text">Selamat Datang</span>
+    </div>
+  </body>
+</html>

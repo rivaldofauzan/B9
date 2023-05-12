@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins&display=swap"
+      rel="stylesheet"
+    />
+    <link href="./css/Nayara_2.css" rel="stylesheet" />
+    <title>Mutasi Transfer</title>
+    <script>
+      document.addEventListener("DOMContentLoaded", () => {
+        document.getElementById("topup").addEventListener("click", function () {
+          window.location.href = "Nayara_1.html";
+        });
+      });
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("aktivitas")
+          .addEventListener("click", function () {
+            window.location.href = "Rivaldo_1.html";
+          });
+      });
+    </script>
+  </head>
+  <body>
+    <div class="background">
+      <div class="navigasi">
+        <div class="navbar_button"></div>
+        <div class="icon_home"></div>
+        <span class="home_text">Home</span>
+        <div class="icon_mutasi"></div>
+        <span class="mutasi_text">Mutasi</span>
+        <div class="icon_aktivitas" id="aktivitas"></div>
+        <span class="aktivitas_text" id="aktivitas">Aktivitas</span>
+        <div class="icon_akun"></div>
+        <span class="akun_text">Akun</span>
+      </div>
+      <div class="header">
+        <div class="navbar_top"></div>
+        <div class="icon_sinyal"></div>
+        <span class="header_title">Mutasi</span>
+      </div>
+      <div class="qris">
+        <div class="ellipse_luar"></div>
+        <div class="ellipse_dalam"></div>
+        <div class="qris_pic"></div>
+      </div>
+      <div class="cari_mutasi">
+        <div class="background_mutasi"></div>
+        <span class="cari_mutasi_text">Cari Mutasi</span>
+        <span class="pilih_rekening_text">Pilih Rekening</span
+        ><span class="rekening_text">0000 0000 0000 0000</span>
+        <div class="mutasi_line1"></div>
+        <div class="icon_rekening"></div>
+        <div class="mutasi_arrow1"></div>
+        <span class="pilih_tanggal_text">Pilih Tanggal</span
+        ><span class="tanggal_text">Bulan Ini</span>
+        <div class="icon_tanggal"></div>
+        <div class="mutasi_arrow2"></div>
+        <div class="button_cari"><span class="cari_text">Cari</span></div>
+      </div>
+      <div class="filter_mutasi">
+        <div class="filter_background"></div>
+        <div class="tombol_transfer"></div>
+        <div class="icon_transfer"></div>
+        <span class="transfer_text">Transfer</span>
+        <div class="tombol_terima"></div>
+        <div class="icon_terima"></div>
+        <span class="terima_text">Terima</span>
+        <div class="tombol_pembayaran"></div>
+        <div class="icon_pembayaran"></div>
+        <span class="pembayaran_text">Pembayaran</span>
+        <div class="tombol_topup"></div>
+        <div class="icon_topup" id="topup"></div>
+        <span class="topup_text" id="topup">Top Up</span>
+      </div>
+      <div class="daftar_mutasi">
+        <div class="daftar_mutasi_background"></div>
+        <span class="title_month">Maret 2023</span
+        ><span class="title_mutasi1">NBMB NAYARA SAFFA TO NOVIA NUR AZIZAH</span
+        ><span class="tanggal_mutasi1">20/03/2023 | 08:28:49 WIB</span
+        ><span class="jumlah_mutasi1">-42.000,00</span>
+        <div class="mutasi_line2"></div>
+        <span class="title_mutasi2">NBMB NAYARA SAFFA TO RIVALDO FAUZAN</span
+        ><span class="tanggal_mutasi2">05/03/2023 | 10:58:49 WIB</span
+        ><span class="jumlah_mutasi2">-152.500,00</span>
+      </div>
+    </div>
+  </body>
+</html>

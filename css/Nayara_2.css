@@ -1,0 +1,732 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background {
+  width: 430px;
+  height: 932px;
+  background: #eee9e9;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 450px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+.navigasi {
+  width: 416px;
+  height: 63px;
+  background: url("../images/v312_151.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 860px;
+  left: 8px;
+  overflow: hidden;
+}
+.navbar_button {
+  width: 416px;
+  height: 63px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.icon_home {
+  width: 30px;
+  height: 30px;
+  background: url("../images/icon_home.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 40px;
+  overflow: hidden;
+}
+.home_text {
+  width: 30px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 35px;
+  left: 40px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.icon_mutasi {
+  width: 23px;
+  height: 25px;
+  background: url("../images/icon_mutasi.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 11px;
+  left: 114px;
+  overflow: hidden;
+}
+.mutasi_text {
+  width: 34px;
+  color: rgba(0, 82, 156, 1);
+  position: absolute;
+  top: 35px;
+  left: 108px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.icon_aktivitas {
+  width: 25px;
+  height: 16px;
+  background: url("../images/icon_aktivitas.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 274px;
+  overflow: hidden;
+}
+.aktivitas_text {
+  width: 42px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 35px;
+  left: 267px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.icon_akun {
+  width: 20px;
+  height: 20px;
+  background: url("../images/icon_akun.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 14px;
+  left: 352px;
+  overflow: hidden;
+}
+.akun_text {
+  width: 25px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 35px;
+  left: 349px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 10px;
+  opacity: 1;
+  text-align: center;
+}
+.header {
+  width: 600px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.navbar_top {
+  width: 449px;
+  height: 70px;
+  background: rgba(0, 82, 156, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.icon_sinyal {
+  width: 16px;
+  height: 16px;
+  background: rgba(34, 191, 20, 1);
+  opacity: 1;
+  position: absolute;
+  top: 32px;
+  left: 45px;
+  border-radius: 50%;
+}
+.header_title {
+  width: 93px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 25px;
+  left: 160px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.qris {
+  width: 70px;
+  height: 70px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 825px;
+  left: 180px;
+  overflow: hidden;
+}
+.ellipse_luar {
+  width: 70px;
+  height: 70px;
+  background: rgba(214, 233, 238, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-radius: 50%;
+}
+.ellipse_dalam {
+  width: 53px;
+  height: 53px;
+  background: rgba(0, 82, 156, 1);
+  opacity: 1;
+  position: absolute;
+  top: 8px;
+  left: 8px;
+  border-radius: 50%;
+}
+.qris_pic {
+  width: 34px;
+  height: 13px;
+  background: url("../images/qris.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 28px;
+  left: 18px;
+  overflow: hidden;
+}
+.cari_mutasi {
+  width: 848px;
+  height: 226px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 77px;
+  left: 15px;
+  overflow: hidden;
+}
+.cari_mutasi_text {
+  width: 97px;
+  color: rgba(2, 66, 124, 1);
+  position: absolute;
+  top: 8px;
+  left: 18px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: center;
+}
+.background_mutasi {
+  width: 396px;
+  height: 226px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.pilih_rekening_text {
+  width: 92px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 41px;
+  left: 91px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.rekening_text {
+  width: 157px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 61px;
+  left: 90px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.mutasi_line1 {
+  width: 362px;
+  height: 2px;
+  background: url("../images/line.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 90px;
+  left: 18px;
+  overflow: hidden;
+}
+.icon_rekening {
+  width: 45px;
+  height: 31px;
+  background: url("../images/icon_rekening.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 42px;
+  left: 23px;
+  overflow: hidden;
+}
+.mutasi_arrow1 {
+  width: 9px;
+  height: 9px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 64px;
+  left: 339px;
+  overflow: hidden;
+}
+.pilih_tanggal_text {
+  width: 87px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 108px;
+  left: 86px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.tanggal_text {
+  width: 148px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 126px;
+  left: 86px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.mutasi_arrow2 {
+  width: 9px;
+  height: 9px;
+  background: url("../images/arrow.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 130px;
+  left: 339px;
+  overflow: hidden;
+}
+.icon_tanggal {
+  width: 44px;
+  height: 45px;
+  background: url("../images/icon_tanggal.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 99px;
+  left: 23px;
+  overflow: hidden;
+}
+.button_cari {
+  width: 352px;
+  height: 45px;
+  background: linear-gradient(rgba(0, 82, 156, 1), rgba(77, 160, 234, 1));
+  padding: 8px 36px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 155px;
+  left: 13px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px
+    rgba(0.07058823853731155, 0.07058823853731155, 0.07058823853731155, 0.25);
+  overflow: hidden;
+}
+.cari_text {
+  width: 35px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 10px;
+  left: 158px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.filter_mutasi {
+  width: 396px;
+  height: 108px;
+  background: url("../images/v312_267.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 309px;
+  left: 17px;
+  overflow: hidden;
+}
+.filter_background {
+  width: 396px;
+  height: 108px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.tombol_transfer {
+  width: 56px;
+  height: 59px;
+  background: linear-gradient(rgba(183, 210, 223, 1), rgba(183, 210, 223, 0));
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 35px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.icon_transfer {
+  width: 37px;
+  height: 38px;
+  background: url("../images/icon_transfer.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 48px;
+  overflow: hidden;
+}
+.tombol_terima {
+  width: 57px;
+  height: 59px;
+  background: linear-gradient(rgba(183, 210, 223, 1), rgba(183, 210, 223, 0));
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 123px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.icon_terima {
+  width: 37px;
+  height: 38px;
+  background: url("../images/icon_terima.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 18px;
+  left: 138px;
+  overflow: hidden;
+}
+.tombol_pembayaran {
+  width: 57px;
+  height: 59px;
+  background: linear-gradient(rgba(183, 210, 223, 1), rgba(183, 210, 223, 0));
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 211px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.icon_pembayaran {
+  width: 38px;
+  height: 39px;
+  background: url("../images/icon_pembayaran.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 26px;
+  left: 220px;
+  overflow: hidden;
+}
+.tombol_topup {
+  width: 57px;
+  height: 59px;
+  background: linear-gradient(rgba(183, 210, 223, 1), rgba(183, 210, 223, 0));
+  opacity: 1;
+  position: absolute;
+  top: 10px;
+  left: 304px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.icon_topup {
+  width: 33px;
+  height: 32px;
+  background: url("../images/icon_topup.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 27px;
+  left: 316px;
+  overflow: hidden;
+}
+.transfer_text {
+  width: 89px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 80px;
+  left: 19px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: center;
+}
+.terima_text {
+  width: 88px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 80px;
+  left: 107px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: center;
+}
+.pembayaran_text {
+  width: 89px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 80px;
+  left: 197px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: center;
+}
+.topup_text {
+  width: 88px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 81px;
+  left: 290px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: center;
+}
+.daftar_mutasi {
+  width: 396px;
+  height: 397px;
+  background: url("../images/v312_278.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 423px;
+  left: 17px;
+  overflow: hidden;
+}
+.daftar_mutasi_background {
+  width: 396px;
+  height: 397px;
+  background: rgba(255, 255, 255, 1);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  border: 1px solid rgba(255, 255, 255, 1);
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  border-bottom-left-radius: 16px;
+  border-bottom-right-radius: 16px;
+  overflow: hidden;
+}
+.title_month {
+  width: 115px;
+  color: rgba(2, 66, 124, 1);
+  position: absolute;
+  top: 18px;
+  left: 19px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 15px;
+  opacity: 1;
+  text-align: left;
+}
+.title_mutasi1 {
+  width: 237px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 61px;
+  left: 20px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.tanggal_mutasi1 {
+  width: 162px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 86px;
+  left: 19px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.jumlah_mutasi1 {
+  width: 67px;
+  color: rgba(255, 0, 0, 1);
+  position: absolute;
+  top: 61px;
+  left: 304px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: right;
+}
+.mutasi_line2 {
+  width: 362px;
+  height: 2px;
+  background: url("../images/line.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 119px;
+  left: 16px;
+  overflow: hidden;
+}
+.title_mutasi2 {
+  width: 237px;
+  color: rgba(0, 0, 0, 1);
+  position: absolute;
+  top: 132px;
+  left: 19px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.tanggal_mutasi2 {
+  width: 162px;
+  color: rgba(132, 132, 132, 1);
+  position: absolute;
+  top: 158px;
+  left: 19px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 11px;
+  opacity: 1;
+  text-align: left;
+}
+.jumlah_mutasi2 {
+  width: 67px;
+  color: rgba(255, 0, 0, 1);
+  position: absolute;
+  top: 132px;
+  left: 304px;
+  font-family: Poppins;
+  font-weight: Medium;
+  font-size: 11px;
+  opacity: 1;
+  text-align: right;
+}

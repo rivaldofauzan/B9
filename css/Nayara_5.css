@@ -1,0 +1,253 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.background {
+  width: 437px;
+  height: 932px;
+  background: rgba(245, 245, 245, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 450px;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  overflow: hidden;
+}
+.background_login_circle {
+  width: 437px;
+  height: 480px;
+  background: url("../images/background_login_circle.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 0px;
+  overflow: hidden;
+}
+.login_animation {
+  width: 348px;
+  height: 285px;
+  background: url("../images/login_animation.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 150px;
+  left: 44px;
+  overflow: hidden;
+}
+.navbar_top {
+  width: 437px;
+  height: 58px;
+  background: rgba(0, 82, 156, 1);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  box-shadow: 0px 4px 1px rgba(0, 0, 0, 0.15000000596046448);
+  overflow: hidden;
+}
+.icon_contact {
+  width: 30px;
+  height: 31px;
+  background: url("../images/icon_contact.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 20px;
+  left: 384px;
+  overflow: hidden;
+}
+.icon_brimo {
+  width: 52px;
+  height: 49px;
+  background: url("../images/icon_brimo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 5px;
+  left: 192px;
+  overflow: hidden;
+}
+.icon_sinyal {
+  width: 16px;
+  height: 16px;
+  background: rgba(34, 191, 20, 1);
+  opacity: 1;
+  position: absolute;
+  top: 22px;
+  left: 24px;
+  border-radius: 50%;
+}
+.textbox_username {
+  width: 403px;
+  height: 48px;
+  position: absolute;
+  top: 597px;
+  left: 15px;
+  border: 1px solid rgba(0, 82, 156, 1);
+  border-radius: 16px;
+  padding: 16px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 13px;
+  outline: none;
+  background-color: transparent;
+  text-indent: 35px;
+}
+.textbox_username::placeholder {
+  color: rgba(196, 196, 196, 1);
+}
+.textbox_password {
+  width: 403px;
+  height: 48px;
+  position: absolute;
+  top: 660px;
+  left: 15px;
+  border: 1px solid rgba(0, 82, 156, 1);
+  border-radius: 16px;
+  padding: 16px;
+  font-family: Poppins;
+  font-weight: Regular;
+  font-size: 13px;
+  outline: none;
+  background-color: transparent;
+  text-indent: 35px;
+}
+.textbox_password::placeholder {
+  color: rgba(196, 196, 196, 1);
+}
+.button_login {
+  width: 336px;
+  height: 48px;
+  background: linear-gradient(rgba(0, 82, 156, 1), rgba(77, 160, 234, 1));
+  padding: 8px 36px;
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 832px;
+  left: 5px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px
+    rgba(0.07058823853731155, 0.07058823853731155, 0.07058823853731155, 0.25);
+  overflow: hidden;
+}
+.login_button_text {
+  width: 45px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 12px;
+  left: 146px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 16px;
+  opacity: 1;
+  text-align: center;
+}
+.button_fingerprint {
+  width: 48px;
+  height: 48px;
+  background: linear-gradient(rgba(0, 82, 156, 1), rgba(77, 160, 234, 1));
+  margin: 10px;
+  opacity: 1;
+  position: absolute;
+  top: 832px;
+  left: 360px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+  box-shadow: 0px 4px 4px
+    rgba(0.07058823853731155, 0.07058823853731155, 0.07058823853731155, 0.25);
+  overflow: hidden;
+}
+.icon_fingerprint {
+  width: 20px;
+  height: 24px;
+  background: url("../images/icon_fingerprint.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 853px;
+  left: 385px;
+  overflow: hidden;
+}
+.icon_username {
+  width: 22px;
+  height: 24px;
+  background: url("../images/icon_username.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 609px;
+  left: 27px;
+  overflow: hidden;
+}
+.icon_password {
+  width: 15px;
+  height: 22px;
+  background: url("../images/icon_password.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 672px;
+  left: 31px;
+  overflow: hidden;
+}
+.login_text {
+  width: 56px;
+  color: rgba(2, 66, 124, 1);
+  position: absolute;
+  top: 555px;
+  left: 25px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
+.forgot_text {
+  width: 200px;
+  color: rgba(2, 66, 124, 1);
+  position: absolute;
+  top: 721px;
+  left: 222px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 13px;
+  opacity: 1;
+  text-align: center;
+}
+.welcome_text {
+  width: 169px;
+  color: rgba(255, 255, 255, 1);
+  position: absolute;
+  top: 96px;
+  left: 141px;
+  font-family: Poppins;
+  font-weight: Bold;
+  font-size: 20px;
+  opacity: 1;
+  text-align: center;
+}
