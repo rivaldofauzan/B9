@@ -43,6 +43,13 @@
             window.location.href = "Novia_4.html";
           });
       });
+      document.addEventListener("DOMContentLoaded", () => {
+        document
+          .getElementById("qris_scan")
+          .addEventListener("click", function () {
+            window.location.href = "Novia_2.html";
+          });
+      });
     </script>
   </head>
   <body>
@@ -63,7 +70,7 @@
         <div class="icon_sinyal"></div>
         <span class="header_title">Mutasi</span>
       </div>
-      <div class="qris">
+      <div class="qris" id="qris_scan">
         <div class="ellipse_luar"></div>
         <div class="ellipse_dalam"></div>
         <div class="qris_pic"></div>
